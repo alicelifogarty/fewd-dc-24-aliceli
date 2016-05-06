@@ -1,27 +1,41 @@
 body {
+  font-family: sans-serif;
+  margin: 0px;
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+  padding: 50px;
+  background: #FFF7E0;
 
 }
 
-.commonstyles a {
-
+.commonstyles a:hover {
+  color: green; 
+  text-decoration: underline;
 }
 
 .commonstyles small {
-}
-
-.commonstyles strong {
-
+  text-transform: uppercase;
+  font-size: .7em;
+  font-family: sans-serif;
+  line-height: 250%;
+  margin: 10px 40px 10px 20px;
+  font-weight: bold;
 }
 
 .commonstyles h1 {
-
+  font-size: 2.1em;
+  font-weight: bold;
+  color: rgb(0,29,92);
 }
 
 .commonstyles h2 {
+  font-size: 1.7em;
 }
 
 .commonstyles h3 {
+  text-transform: uppercase;
   margin-top: 42px;
+  letter-spacing: 2px;
 }
 
 .commonstyles h4 {
@@ -29,20 +43,21 @@ body {
 }
 
 .commonstyles p {
+  font-family: Georgia, serif;
+  color: #05080C;
   margin-top: 0;
   margin-bottom: 27px;
+  line-height: 150%;
+  font-size: 1.15em;
 }
 
 .commonstyles ul {
   list-style: square;
 }
 
-.commonstyles ul p {
-
-}
-
 .commonstyles li {
-
+  line-height: 150%;
+  font-size: 1.1em;
 }
 
 .commonstyles hr {
@@ -56,40 +71,50 @@ body {
   margin-bottom: 20px;
   border: 1px solid #222222;
   padding: 5px;
-  text-align: center
-}
-
-.commonstyles img[alt] {
+  text-align: center;
+  width: 250px;
   float: right;
 }
 
 .toc {
-
+  font-family: sans-serif;
   max-width: 300px;
   float:right;
   margin: 0 0 20px 20px;
 }
 
 .toc .toclevel-1 {
-
+  font-size: 1em;
+  line-height: 150%;
+  font-weight: bold;
 }
 
 .toc .toclevel-1 > a {
-
+  color: #3344aa;
 }
 
 .toc .toclevel-2 {
-
+  font-size: .8em;
+  margin-left: 10px;
+  color: #3344aa;
+  line-height: 150%;
 }
 
 .toc .toclevel-2 > a {
-
+  color: gray;
 }
 
 .datatable td {
   padding: 8px 14px;
+  font-size: 1.1em;
 }
 
 .datatable td:first-child{
   text-transform: uppercase;
+  font-weight: bold;
+  font-size: .7em;
+}
+
+.datatable td a {
+  font-weight: bold;
 }
