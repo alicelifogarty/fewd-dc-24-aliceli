@@ -1,0 +1,38 @@
+body {
+	line-height: 25px;
+	font-family: sans-serif;
+	margin: 30px;
+}
+
+
+#notification {
+	background: #d3d3d3;
+	border: solid gray 1px;
+	padding: 10px;
+}
+
+code {
+	background: #f6f6f6;
+	border: solid gray 1px;
+	border-radius: 5px;
+	padding: 3px;
+}
+
+.message {
+	background: #FFFFE0;
+	border: solid #d3d3d3 2px;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+
+.error {
+	background: #ffe0e0;
+	border: solid #ff6666 2px;
+	padding: 15px;
+}
+
+.success {
+	background: #CCFFCC;
+	border: solid #008000 1px;
+	padding: 15px;
+}

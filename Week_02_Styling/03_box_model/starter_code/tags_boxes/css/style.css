@@ -1,0 +1,21 @@
+h1 {
+	background-color: #ff0000;
+	padding: 40px;
+	border: 4px solid black;
+	font-weight: bolder;
+	font-family: sans-serif;
+}
+
+p {
+	background-color: #0000ff;
+	color: #ffffff;
+	padding: 60px;
+	border: dotted black 4px;
+}
+
+code {
+	background-color: #ffffff;
+	color: black;
+	padding: 1px;
+	border: solid black 1px;
+}

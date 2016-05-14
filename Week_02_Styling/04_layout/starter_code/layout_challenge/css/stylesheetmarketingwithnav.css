@@ -1,0 +1,130 @@
+body {
+	padding:40px;
+}
+
+.topNav {
+	width:auto;
+}
+
+.logo {
+	float: left;
+	width: 30%;
+	margin-bottom:30px;
+}
+
+.nav {
+	float: right;
+	width: 70%;
+	margin-bottom:30px;
+}
+
+.navUL {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+	width: auto;
+}
+
+.navLi {
+	display: inline-block;
+	padding: 20px 50px;
+	width: auto;
+	border: solid black 1px;
+	background: #f6f6f6;
+	height: 50px;
+	margin-left:5%;
+	margin-top: 6%;
+	float: right;
+}
+
+.logoBorder {
+	border: solid black 1px;
+	background: #f6f6f6;
+	height: 100px;
+	padding: 40px;
+}
+
+.navBorder {
+
+}
+
+.container {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header { 
+	width: auto;
+	height: 100px;
+	margin-bottom: 30px;
+	clear: both;
+}
+
+.firstLeft {
+	float: left;
+	width: 47.5%;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.firstRight {
+	float: left;
+	width: 47.5%;
+	margin-bottom: 30px;
+	overflow: hidden;
+	margin-left: 5%;
+}
+
+.firstborderFloat {
+	border: solid black 1px;
+	background: #f6f6f6;
+	height: 200px;
+	padding: 40px;
+}
+
+.left {
+	float: left;
+	width: 20%;
+	margin-bottom: 30px;
+	overflow: hidden;
+	clear:both;
+}
+
+.center {
+	float: left;
+	width: 50%;
+	margin-bottom:30px;
+	overflow: hidden;
+	margin-left:5%;
+}
+
+.right {
+	float: right;
+	width: 20%;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.border {
+	border: solid black 1px;
+	background: #f6f6f6;
+	padding: 40px;
+}
+
+.borderFloat {
+	border: solid black 1px;
+	background: #f6f6f6;
+	height: 100px;
+	padding: 40px;
+}
+
+.footer {
+	width:100%;
+	height: 100px;
+	margin-bottom: 30px;
+	clear: both;
+	overflow: hidden;
+}
