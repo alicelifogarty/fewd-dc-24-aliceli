@@ -28,14 +28,9 @@ div {
 }
 
 .container {
-     width: 960px;
+     width: 100%;
+     max-width: 960px;
      margin: 0 auto;
-}
-
-.hero {
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-     background-size: cover;
-     height:700px;
 }
 
 .logo {
@@ -44,13 +39,22 @@ div {
      color:#f0efef;
 }
 
+.button {
+     padding: 10px 40px;
+     border-radius: 5px;
+     background:#f9e42e;
+     margin: 0 auto;
+     display: block;
+     border: none;
+     width: 200px;
+}
 
-.hero a {
-     text-decoration: none;
-     color:#121212;
-     font-weight:800;
-     font-size:14px;
-     text-align: center;
+.hero {
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+     background-size: cover;
+     background-position: top center;
+     background-attachment:fixed;
+     padding: 20px 0 240px 0;
 }
 
 .hero .logo {
@@ -62,18 +66,15 @@ div {
      font-size:24px;
      color:#f0efef;
      text-align: center;
-     padding-top: 130px;
-     padding-bottom: 10px;
+     padding: 230px 0 10px;
 }
 
-.button {
-     padding: 10px 40px;
-     border-radius: 5px;
-     background:#f9e42e;
-     margin: 0 auto;
-     display: block;
-     border: none;
-     width: 200px;
+.hero a {
+     text-decoration: none;
+     color:#121212;
+     font-weight:800;
+     font-size:14px;
+     text-align: center;
 }
 
 .hero .button {
@@ -91,10 +92,15 @@ div {
      line-height:200%;
 }
 
+.benefits .inner {
+     width: 500px;
+}
+
 .benefits p {
      font-weight:300;
      font-size: 13px;
-     line-height: 300%;
+     padding: 10px 0 20px;
+     line-height: 1.4;
      color:#606161;
 }
 
@@ -102,6 +108,7 @@ div {
      list-style-type: disc; 
      color: #606161;
      list-style-position: inside;
+     padding-left: 20px;
      font-weight:300;
      font-size: 13px;
      line-height: 180%;
@@ -110,6 +117,8 @@ div {
 .testimony {
      background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
      background-size: cover; 
+     background-attachment: fixed;
+     background-position: center;
 }
 
 
@@ -119,8 +128,11 @@ div {
      font-size:18px;
      color:#f0efef;
      text-align: center;
-     padding: 0 70px 0 70px;
      display:inline-block;
+}
+
+.testimony .container {
+     max-width:700px;
 }
 
 .speaker {
@@ -138,12 +150,7 @@ div {
 .signUp .button {
      font-weight:800;
      font-size:12px;
-     padding: 10px 40px;
-     border-radius: 5px;
      background:#033048;
-     margin: 0 auto;
-     display: block;
-     border: none;
 }
 
 .signUp a {
@@ -154,13 +161,13 @@ div {
      text-align: center;
 }
 
-
 .smallerPadding {
-     padding:10px;
+     padding:10px 0;
 }
 
 footer {
      background: #121212;
+     color:#f0efef;
 }
 
 .logoFooter {
@@ -170,26 +177,17 @@ footer {
 }
 
 .socialMedia {
-     display: inline;
      list-style:none;
-     text-align:center;
+     text-align: center;
 }
 
-.twitter {
-     float:left;
-     margin-left:400px;
-}
-
-.facebook {
-     float:right;
-     margin-right:400px;
+footer li {
+     display:inline-block;
 }
 
 .copyright {
      font-weight:600;
      font-size: 9px;
-     color:#f0efef;
-     margin: 0 auto;
      clear:both;
      padding: 30px 0;
      text-align: center;
