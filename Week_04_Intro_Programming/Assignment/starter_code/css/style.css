@@ -151,6 +151,10 @@ a {
   font-weight: 600;
 }
 
+#show-this-on-click, #learnmoretext {
+  padding-top: 20px;
+}
+
 .button {
   border-radius: 5px;
   font-weight: 800;

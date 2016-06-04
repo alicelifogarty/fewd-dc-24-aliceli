@@ -83,16 +83,6 @@ This is our suggested limited list of functions to share.
 | __Description__| An example that demonstrates how to add jQuery CDN / file and syntax |    
 | __Notes__| This is the same activity that students completed last class. We've pulled the example off of code pen, to show students how they would develop locally, in addition to review jQuery syntax. It would be beneficial to build the functionality with a clean .js file. We don't want students to translate JavaScript to jQuery, we want them to build an understanding of jQuery.| 
 
-
-| Exercise | [Syntax Drill](http://codepen.io/GeneralAssembly/pen/EAubl?editors=110) |
-| ------------- |:-------------|
-| __Time__ | 30 min| 
-| __Topics__ | jQuery syntax| 
-| __Description__| Dictation style activity, to help students practice jQuery syntax. |    
-| __Notes__| This exercise is meant to be used with code pen, students should log in and fork the exercise from Code Pen. Instructors ask students to make changes to the DOM (browser view in code pen). Show students correct answers after each ask. Here is an example of some DOM changes you can ask students to complete. Use jQuery syntax to change all p tags to blue. Use jQuery to change the size of the boxes etc. | 
-
-===
-
 ####Adding Interactivity
 _Time: 60min_
 
@@ -111,6 +101,19 @@ _Time: 60min_
 
 
 ===
+
+
+
+| Exercise | [Syntax Drill]|
+| ------------- |:-------------|
+| __Time__ | 30 min|
+| __Topics__ | jQuery syntax|
+| __Description__| Dictation style activity, to help students practice jQuery syntax. |
+| __Notes__| This exercise is meant to be used with code pen, students should log in and fork the exercise from Code Pen. Instructors ask students to make changes to the DOM (browser view in code pen). Show students correct answers after each ask. Here is an example of some DOM changes you can ask students to complete. Use jQuery syntax to change all p tags to blue. Use jQuery to change the size of the boxes etc. |
+
+===
+
+
 
 
 [![slides](../../img/icons/slides.png)](slides.md)
