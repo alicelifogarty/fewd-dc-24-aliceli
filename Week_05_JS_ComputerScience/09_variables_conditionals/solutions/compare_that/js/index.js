@@ -16,7 +16,7 @@ jQuery(document).ready(function(){
       comparison = 'N/A';
     }
 
-    jQuery('#comparison').text(comparison);
+    jQuery('#comparison').replaceWith(comparison);
   });
 });
 

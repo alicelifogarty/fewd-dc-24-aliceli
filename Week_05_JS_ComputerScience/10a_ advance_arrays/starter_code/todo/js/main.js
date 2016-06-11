@@ -23,6 +23,37 @@ BONUS:
 
 */
 
+var toDoList = [];
+var itemsToDo = 0;
+var itemsTotal = 0;
+
+var toDoListSample = [false, "ListText"];
+toDoList = [toDoListSample, toDoListSample, toDoListSample];
+
+function renderToDo(){
+  itemsTotal = toDoList.length;
+  itemsToDo=0;
+
+  var renderedCode = "";
+
+  for(q=0;q<toDoList.length;q++;){
+    if(toDoList[q][0]==false){
+      itemsToDo++;
+    }
+
+renderedCode = renderedCode + '';
+
+
+
+
+
+
+  }
+
+
+}
+
+
 //Create a function to count the number of to do items.
 
   //Variable to store total number of list items.
