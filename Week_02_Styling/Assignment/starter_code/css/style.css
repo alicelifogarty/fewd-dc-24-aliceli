@@ -55,6 +55,7 @@ div {
      background-position: top center;
      background-attachment:fixed;
      padding: 20px 0 240px 0;
+     opacity: .5;
 }
 
 .hero .logo {

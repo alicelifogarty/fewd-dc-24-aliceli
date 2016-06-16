@@ -1,0 +1,276 @@
+/*
+Project Name: Alice Li Portfolio
+Author: Alice Li
+Developer and Designer
+*/
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	font-family: 'Libre Baskerville', serif;
+	font-size:22px;
+}
+
+a {
+	text-decoration:none;
+	color: #999999;
+}
+
+nav {
+	padding: 15px 0;
+}
+
+h1 {
+	font-family:'Raleway', Helvetica, Arial, sans-serif;
+	font-weight: 900;
+	font-size:72px;
+	text-transform: uppercase;
+	padding: 50px 0px;
+	color: #EC1048;
+	letter-spacing: 1px;
+}
+
+p {
+	padding: 10px 0;
+	line-height: 1.7;
+}
+
+footer {
+	background-color:#F1FEF4;
+	padding: 20px 0;
+	font-size:16px;
+	color: #4D4D4D;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.container {
+	margin: 0 auto;
+	max-width:960px;
+	width:100%;
+}
+
+/*Main Navigation*/
+
+.navSpace {
+	padding: 20px 0;
+	height: 90px;
+	background-color: rgba(255,255,255,.6);
+}
+
+.logoTag {
+	float:left;
+	width:40%;
+	display:block;
+	padding:10px 0;
+	font-size:18px;
+}
+
+.logo {
+	width:50px;
+	margin-right:20px;
+	float:left;
+}
+
+}
+
+nav {
+	float:right;
+	width:35%;
+}
+
+nav ul {
+	list-style:none;
+	width: auto;
+
+}
+
+nav li {
+	display:inline-block;
+	float: right;
+}
+
+nav a {
+	color:black;
+	font-family:'Raleway', Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-size:18px;
+	text-transform: uppercase;
+	/*padding: 10px 0;*/
+	padding-left: 60px;
+}
+
+/*About*/
+
+
+/*.hero {
+	background: url(../img/sfBlue.jpg) no-repeat center top;
+	background-size: cover;
+	background-position: top center;
+	background-attachment:fixed;
+	height:600px;
+} */
+
+.hello {
+	padding:100px 0;
+}
+
+.lastLine {
+	padding-bottom: 80px;
+}
+
+.content660 {
+	width:660px;
+}
+
+/*Work Main*/
+
+.mainWork article {
+	padding: 20px 0;
+}
+
+.mainWork article h1 a {
+	text-decoration: none;
+	color:#EC1048;
+}
+
+.mainWork article h1{
+	font-size:48px;
+	text-align: center;
+	padding: 150px 0 100px 0;
+	letter-spacing: 4px;
+}
+
+.mainWork li {
+	line-height: 1.5;
+	padding-left: 100px;
+	font-size: 16px;
+}
+
+.mainWork a {
+	color:white;
+}
+
+.ccrh {
+	background: url(../img/mainWork/cchrTshirt.jpg) no-repeat center top;
+	background-position: top center;
+	/*background-attachment:fixed;*/
+	margin: 50px 0;
+	height:415px;
+}
+
+.wedding {
+	background: url(../img/mainWork/wedding.jpg) no-repeat center top;
+	background-position: top center;
+	/*background-attachment:fixed;*/
+	margin: 50px 0;
+	height:415px;
+}
+
+.sideProjects {
+	background: url(../img/mainWork/goodbyePosterMain.jpg) no-repeat center top;
+	background-position: center;
+	/*background-attachment:fixed;*/
+	background-size: 830px 415px;
+	margin: 50px 0;
+	height:415px;
+}
+
+/*Work Sub Page*/
+
+.workSubHero {
+	letter-spacing: 4px;
+	text-align: center;
+	padding: 200px 0;
+}
+
+.workSub article p {
+	-webkit-columns: 2 350px;
+    -moz-columns: 2 350px;
+    columns: 2 350px;
+}
+
+.workSub h1 {
+	padding-top:90px;
+	padding-bottom:15px;
+}
+
+.leftBigPic {
+	/*float:left;*/
+	height:600px;
+	background: url(../img/sideProjects/joleneMockUp.jpg) no-repeat left top;
+	/*background-position: center;*/
+	margin:45px 0;
+	background-size: 600px 600px;
+}
+
+.rightTopPic {
+	/*float:right;*/
+	height:300px;
+	background: url(../img/sideProjects/GoToHell_Frame.jpg) no-repeat left top;
+	margin:45px 0;
+	background-size: 300px 300px;
+}
+
+.rightBtmPic {
+	/*float:right;*/
+	height:300px;
+	background: url(../img/sideProjects/happyAnniversary.jpg) no-repeat left top;
+	margin:45px 0;
+	background-size: 300px 300px;
+}
+
+/*Side Projects*/
+
+.sideProjectsHero {
+	background: url(../img/sideProjects/goodbye3Main.jpg) no-repeat center top;
+	background-position: center;
+	background-attachment:fixed;
+	background-size: 1600px;
+	height:720px;
+}
+
+.lightGreen {
+	background-color:#F1FEF4;
+}
+
+.goodbyePoster {
+	background: url(../img/sideProjects/goodbyeFrame.jpg) no-repeat center top;
+	background-position: center;
+	/*background-size: 1920px;*/
+	height:700px;
+	margin-top:45px;
+}
+
+.kissPoster {
+	background: url(../img/sideProjects/kissingGoodbyeFrame.jpg) no-repeat center top;
+	background-position: center;
+	/*background-size: 1920px;*/
+	height:700px;
+	margin-bottom:45px;
+}
