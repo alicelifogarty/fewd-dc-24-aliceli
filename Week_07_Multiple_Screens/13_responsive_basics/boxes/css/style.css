@@ -1,0 +1,86 @@
+/* Box Model Hack */
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+nav {
+	float:left;
+	padding:10px;
+}
+
+.border {
+	border: 1px black solid;
+}
+
+.contain {
+	padding:10px;
+}
+
+.menu {
+	padding:30px 100px;
+	margin-right:20px;
+	display:inline-block;
+}
+
+#menuTrigger {
+	float:right;
+	padding:30px 100px;
+	margin: 10px;
+}
+
+.one {
+	padding: 100px 0;
+	margin: 10px;
+}
+
+.four {
+	padding: 10px;
+	margin:1%;
+}
+
+.smallbox {
+	padding: 10%;
+	width:23%;
+	float:left;
+	margin-right:2.65%;
+}
+
+.last {
+	padding: 10%;
+	width:23%;
+	float:left;
+}
+
+footer {
+	padding:2%;
+	margin: 10px;
+}
+
+.bigBox {
+	padding: 10%;
+	width:32%;
+	float:left;
+	margin-right:2%;
+}
+
+.lastbigBox {
+	padding: 10%;
+	width:32%;
+	float:left;
+}
