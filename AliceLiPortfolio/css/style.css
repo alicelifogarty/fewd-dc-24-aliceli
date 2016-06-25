@@ -476,6 +476,18 @@ article {
     padding-top:100%;
 }
 
+.vbmsTemplates {
+	background: url(../img/vbms/vbmsTemplates.jpg) no-repeat left top;
+	background-size: contain;
+	background-position: center;
+}
+
+.vbmsTemplateClose {
+	background: url(../img/vbms/vbmsTemplateCloseup.jpg) no-repeat left top;
+	background-size: contain;
+	background-position: center;
+}
+
 .box.connect {
 	width:50%;
 	margin-top:-40px;

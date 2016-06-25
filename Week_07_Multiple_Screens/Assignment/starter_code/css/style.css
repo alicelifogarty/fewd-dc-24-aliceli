@@ -64,9 +64,11 @@ a {
 
 /* Center the container */
 .container {
-  width: 960px;
+  max-width: 960px;
+  width:100%;
   margin: 0 auto;
 }
+
 .logo {
   font-size: 48px;
   font-weight: 800;
@@ -82,17 +84,25 @@ header .logo {
   float: left;
 }
 
-header nav {
+.mainNav {
   float: right;
   margin-top: 15px;
 }
-header nav ul li {
+.mainNav ul li {
   display: inline-block;
   margin: 0 0 0 40px;
   font-size: 24px;
 }
-header nav ul li a {
+.mainNav ul li a {
   color: #f9e42e;
+}
+
+#toggler {
+  display:none;
+}
+
+.mobileNav {
+  display:none;
 }
 
 #hero {
@@ -168,7 +178,7 @@ blockquote span {
   margin-top: 80px;
 }
 #posts {
-  width: 700px;
+  max-width: 700px;
   display: inline-block;
   margin-right: 20px;
   vertical-align: top;
@@ -288,5 +298,116 @@ footer p {
   font-weight: 600;
 }
 
+@media screen and (max-width: 768px){
 
+  .logo {
+    font-size:36px;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  .mainNav {
+    display:none;
+  }
+
+  #toggler {
+    display:inline-block;
+    color:yellow;
+    float:right;
+    font-size:36px;
+
+  }
+
+  .mobileNav {
+    text-align:center;
+    list-style: none;
+    background-color:#033048;
+  }
+
+  .mobileNav li {
+    border-bottom: 1px solid gray;
+    padding:10px;
+  }
+
+  .mobileNav li:last-child {
+    border-bottom: 0;
+  }
+
+  .mobileNav a {
+    color:yellow;
+  } 
+
+  #hero {
+  height: 280px;
+  padding-top: 15px;
+  }
+
+  #hero h2 {
+    font-size:28px;
+    margin: 55px 0 60px;
+  }
+
+  .container {
+    max-width:700px;
+  }
+
+  h3 {
+    font-size:30px;
+  }
+
+  body {
+    font-size:18px;
+  }
+
+  #benefits {
+  padding: 50px 0;
+  }
+
+  blockquote {
+  font-size: 20px;
+  width: 600px;
+  }
+
+  footer ul li {
+  margin: 0 26px 30px;
+  }
+
+  footer .logo {
+  margin-bottom: 30px;
+  }
+
+  #main {
+    margin-top: 30px;
+  }
+
+  .post h2,
+  #sidebar h3 {
+    font-size:24px;
+  }
+
+  .post p,
+  #sidebar ul li a,
+  #sidebar p {
+    font-size:18px;
+  }
+
+  .post p:first-of-type:first-letter {
+  float: none;
+  font-size: 18px;
+  line-height: 1.333;
+  padding: 0;
+  font-weight: 400;
+  }
+
+  #sidebar {
+    width:700px;
+  }
+
+  #sidebar img {
+    display:none;
+  }
+
+}
 
