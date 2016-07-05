@@ -8,11 +8,62 @@
 	<!--
 	Link to Normalize CSS, Google Fonts (http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800), 960 Grid CSS, and your style sheet.
 	-->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="960_12_col.css">
+	<link rel="stylesheet" href="styles.css">
 
 </head>
-<body>
+<body class="container_12">
+	<header>
+		<div>
+			<h1 class="logo">Relaxr</h1>
+				<nav class="mainNav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+		</div>
+	</header>
+	<section class="contactForm grid_8">
+		<h1>Contact Us</h1>
+		<form method="post">
+			<p>Account Info</p>
+			<label for="name">Name</label>
+			<div class="icon nameicon">
+			<input type="text" name="name" required>
+			</div>
+			<br>
+			<label for="company">Company</label>
+			<div class="icon companyicon">
+			<input type="text" name="company" required>
+			</div>
+			<br>
+			<label for="email">Email</label>
+			<div class="icon emailicon">
+			<input type="text" name="email" required>
+			</div>
+			<br>
+			<p>Project Info</p>
+			<label for="projectDescription">Project Description</label>
+			<div class="icon project">
+			<textarea rows="3" cols="60" name="projectDescription">
+			</textarea>
+			</div>
+			<br>
+			<div id="button">
+			<input type="submit" value="Send Message">
+			</div>
+		</form>
+	</section>
+	<aside class="grid_4">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam amet totam labore eaque sit praesentium explicabo blanditiis optio laboriosam ab id, deleniti, vel nam doloremque dolorum quia at assumenda perspiciatis.</p>
+	</aside>
 
 
-	
+
 </body>
 </html>
