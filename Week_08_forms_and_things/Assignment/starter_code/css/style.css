@@ -220,26 +220,6 @@ blockquote span {
   font-weight: 600;
 }
 
-/*.button {
-  border-radius: 5px;
-  font-weight: 800;
-  padding: 12px 0;
-  width: 280px;
-  font-size: 28px;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-}
-.yellow {
-  background: #f9e42e;
-  color: #033048;
-}
-.blue {
-  background: #033048;
-  color: #fff;
-  font-size: 24px;
-}*/
-
 #sidebar h3 {
   font-size: 32px;
   font-weight: 800;
@@ -290,6 +270,7 @@ footer p {
 }
 #contact {
   width: 70%;
+  padding-bottom: 150px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -369,4 +350,43 @@ footer p {
   }
 }
 
+#contact label {
+  font-weight:normal;
+  font-size:16px;
+  text-align: left;
+}
 
+#contact h1 {
+  font-size:28px;
+  padding-bottom: 20px
+}
+
+.form-horizontal input {
+  border: none;
+  border-radius:0;
+  box-shadow: none;
+  outline:none;
+  border-bottom: 1px solid #121212;
+  font-size:16px;
+}
+
+.button {
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px 0;
+  width: 280px;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  outline:none;
+}
+.yellow {
+  background: #f9e42e;
+  color: #033048;
+}
+.blue {
+  background: #033048;
+  color: #fff;
+  font-size: 24px;
+}
